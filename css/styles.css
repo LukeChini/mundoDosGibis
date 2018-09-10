@@ -1,0 +1,213 @@
+body {
+  background-image: url('../images/fundo 15.png');
+  background-attechment: fixed;
+}
+
+.fundo{
+  background-color: rgba(0,0,255,.5);
+}
+
+.principal{
+  width: 95%;
+  height: 1vh;
+  margin: 0px auto;
+}
+
+.logoescrito{
+  display: inline-block;
+  text-decoration: inline;
+  /* background-color: rgba(0,0,255,.5); */
+  text-align: left;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right:30px;
+  color: rgb(0,120,215);
+  text-shadow: -1px -1px #666666;
+}
+
+
+.caixadepesquisa{
+  background-color: rgb(0,120,215);
+  padding: 20px;
+}
+
+.cinquenta input{
+  width: 50%;
+  height: 50%;
+}
+
+.flutuar{
+  float: right;
+  padding: 10px;
+}
+
+.listadeherois{
+width: 100%;
+margin: 0 auto;
+}
+
+.icones{
+  padding-top: 10px;
+  width: 24%;
+  display: inline-block;
+}
+
+.firstIcone{
+  padding-top: 10px;
+  width: 24%;
+  display: inline-block;
+}
+
+.lastIcone{
+  padding-top: 10px;
+  width: 24%;
+  display: inline-block;
+}
+
+.login{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(245,246,245);
+  border-width: 2px;
+}
+
+.login input{
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.login ::placeholder{
+  font-size: 18px;
+}
+
+.continuarlogin input{
+    background-color: rgb(0,120,215);
+    color: white;
+    font-size: 20px;
+}
+
+ .continuarlogin :hover {
+    background-color: rgb(0,120,255);
+    color: white;
+    font-size: 20px;
+}
+
+.continuarlogin {
+  padding-top: 20px;
+  padding-bottom:20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.crieuma{
+  padding-top: 20px;
+  padding-bottom:20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.crieuma p{
+text-align: center;
+}
+
+.cadastre{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(245,246,245);
+  border-width: 2px;
+}
+
+.cadastre input{
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.cadastre ::placeholder{
+  font-size: 18px;
+}
+
+.cadastre td{
+  padding-top: 10px;
+}
+
+.tituloCadastro{
+  width: 100%;
+  text-align: center;
+  border-width: 2px;
+  border-color: rgb(245,246,245);
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sexoRadio input{
+  width: 40%;
+  height: 15px;
+  border-radius: 5px;
+}
+
+@media (min-width: 735px){
+.icones{
+  padding-top: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 15%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.firstIcone{
+  padding-top: 10px;
+  padding-left: 12%;
+  padding-right: 2%;
+  width: 15%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.lastIcone{
+  padding-top: 10px;
+  padding-left: 2%;
+  padding-right: 12%;
+  width: 15%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.listadeherois{
+width: 80%;
+margin: 0 auto;
+}
+
+.cadastre{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(245,246,245);
+  border-width: 2px;
+}
+
+
+
+}
